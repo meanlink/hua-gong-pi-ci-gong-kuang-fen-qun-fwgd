@@ -32,3 +32,10 @@ target/
 *.o
 *.obj
 .DS_Store
+
+# 联邦联合试验运行态（SQLite、WAL、PID、日志），不进仓库
+federation/data/
+federation/.run/
+federation/**/*.db
+federation/**/*.db-wal
+federation/**/*.db-shm
